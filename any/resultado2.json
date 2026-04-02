@@ -1,0 +1,809 @@
+{
+    "status": "OK",
+    "result": "OPTIMAL",
+    "assignments": [
+        {
+            "unit": "u_IDGS14_administracion del tiempo_pat0_#0",
+            "group": "IDGS14",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Vie17",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS14_administracion del tiempo_pat0_#1",
+            "group": "IDGS14",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Vie18",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS14_administracion del tiempo_pat0_#2",
+            "group": "IDGS14",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Mie17",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS14_Matematicas para ingenieria_pat0_#0",
+            "group": "IDGS14",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Mar21",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS14_Matematicas para ingenieria_pat0_#1",
+            "group": "IDGS14",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Vie20",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS14_Matematicas para ingenieria_pat0_#2",
+            "group": "IDGS14",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Mar20",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS14_Matematicas para ingenieria_pat0_#3",
+            "group": "IDGS14",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Vie21",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS14_Arquitectura de software_pat0_#0",
+            "group": "IDGS14",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Mie21",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS14_Arquitectura de software_pat0_#1",
+            "group": "IDGS14",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Jue20",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS14_Arquitectura de software_pat0_#2",
+            "group": "IDGS14",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Vie19",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS14_Arquitectura de software_pat0_#3",
+            "group": "IDGS14",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Lun17",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS14_Arquitectura de software_pat0_#4",
+            "group": "IDGS14",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Jue19",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS14_Ingles_pat0_#0",
+            "group": "IDGS14",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Mie19",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles3"
+        },
+        {
+            "unit": "u_IDGS14_Ingles_pat0_#1",
+            "group": "IDGS14",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Mie18",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles3"
+        },
+        {
+            "unit": "u_IDGS14_Ingles_pat0_#2",
+            "group": "IDGS14",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Lun19",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles3"
+        },
+        {
+            "unit": "u_IDGS14_Ingles_pat0_#3",
+            "group": "IDGS14",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Mie20",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles3"
+        },
+        {
+            "unit": "u_IDGS14_Metodologia de desarrollo de proyectos_pat0_#0",
+            "group": "IDGS14",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Lun18",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS14_Metodologia de desarrollo de proyectos_pat0_#1",
+            "group": "IDGS14",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Mar17",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS14_Metodologia de desarrollo de proyectos_pat0_#2",
+            "group": "IDGS14",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Jue21",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS14_Experiencia de usuario_pat0_#0",
+            "group": "IDGS14",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Mar18",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS14_Experiencia de usuario_pat0_#1",
+            "group": "IDGS14",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Jue18",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS14_Experiencia de usuario_pat0_#2",
+            "group": "IDGS14",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Mar19",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS14_Seguridad informatica_pat0_#0",
+            "group": "IDGS14",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Lun21",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS14_Seguridad informatica_pat0_#1",
+            "group": "IDGS14",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Lun20",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS14_Seguridad informatica_pat0_#2",
+            "group": "IDGS14",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Jue17",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS15_administracion del tiempo_pat0_#0",
+            "group": "IDGS15",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Mie21",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS15_administracion del tiempo_pat0_#1",
+            "group": "IDGS15",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Vie19",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS15_administracion del tiempo_pat0_#2",
+            "group": "IDGS15",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Mar18",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS15_Matematicas para ingenieria_pat0_#0",
+            "group": "IDGS15",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Mar19",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS15_Matematicas para ingenieria_pat0_#1",
+            "group": "IDGS15",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Jue20",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS15_Matematicas para ingenieria_pat0_#2",
+            "group": "IDGS15",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Mie18",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS15_Matematicas para ingenieria_pat0_#3",
+            "group": "IDGS15",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Mie17",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS15_Arquitectura de software_pat0_#0",
+            "group": "IDGS15",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Lun18",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS15_Arquitectura de software_pat0_#1",
+            "group": "IDGS15",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Vie17",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS15_Arquitectura de software_pat0_#2",
+            "group": "IDGS15",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Mar17",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS15_Arquitectura de software_pat0_#3",
+            "group": "IDGS15",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Vie18",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS15_Arquitectura de software_pat0_#4",
+            "group": "IDGS15",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Jue21",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS15_Ingles_pat0_#0",
+            "group": "IDGS15",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Mar20",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles1"
+        },
+        {
+            "unit": "u_IDGS15_Ingles_pat0_#1",
+            "group": "IDGS15",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Lun21",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles1"
+        },
+        {
+            "unit": "u_IDGS15_Ingles_pat0_#2",
+            "group": "IDGS15",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Lun20",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles1"
+        },
+        {
+            "unit": "u_IDGS15_Ingles_pat0_#3",
+            "group": "IDGS15",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Jue18",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles1"
+        },
+        {
+            "unit": "u_IDGS15_Metodologia de desarrollo de proyectos_pat0_#0",
+            "group": "IDGS15",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Jue17",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS15_Metodologia de desarrollo de proyectos_pat0_#1",
+            "group": "IDGS15",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Lun17",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS15_Metodologia de desarrollo de proyectos_pat0_#2",
+            "group": "IDGS15",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Mar21",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS15_Experiencia de usuario_pat0_#0",
+            "group": "IDGS15",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Lun19",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS15_Experiencia de usuario_pat0_#1",
+            "group": "IDGS15",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Mie19",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS15_Experiencia de usuario_pat0_#2",
+            "group": "IDGS15",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Mie20",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS15_Seguridad informatica_pat0_#0",
+            "group": "IDGS15",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Vie21",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS15_Seguridad informatica_pat0_#1",
+            "group": "IDGS15",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Vie20",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS15_Seguridad informatica_pat0_#2",
+            "group": "IDGS15",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Jue19",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS16_administracion del tiempo_pat0_#0",
+            "group": "IDGS16",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Mie19",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS16_administracion del tiempo_pat0_#1",
+            "group": "IDGS16",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Mie18",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS16_administracion del tiempo_pat0_#2",
+            "group": "IDGS16",
+            "subj": "administracion del tiempo",
+            "len": 1,
+            "start": "Jue17",
+            "room": "Aula 12 edificio k",
+            "prof": "Maria Guadalupe"
+        },
+        {
+            "unit": "u_IDGS16_Matematicas para ingenieria_pat0_#0",
+            "group": "IDGS16",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Jue18",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS16_Matematicas para ingenieria_pat0_#1",
+            "group": "IDGS16",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Mie21",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS16_Matematicas para ingenieria_pat0_#2",
+            "group": "IDGS16",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Jue19",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS16_Matematicas para ingenieria_pat0_#3",
+            "group": "IDGS16",
+            "subj": "Matematicas para ingenieria",
+            "len": 1,
+            "start": "Mie20",
+            "room": "Aula 11 edificio k",
+            "prof": "Jesus Hernan"
+        },
+        {
+            "unit": "u_IDGS16_Arquitectura de software_pat0_#0",
+            "group": "IDGS16",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Lun19",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS16_Arquitectura de software_pat0_#1",
+            "group": "IDGS16",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Lun20",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS16_Arquitectura de software_pat0_#2",
+            "group": "IDGS16",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Vie21",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS16_Arquitectura de software_pat0_#3",
+            "group": "IDGS16",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Mie17",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS16_Arquitectura de software_pat0_#4",
+            "group": "IDGS16",
+            "subj": "Arquitectura de software",
+            "len": 1,
+            "start": "Mar18",
+            "room": "Aula 11 edificio I",
+            "prof": "Manuel"
+        },
+        {
+            "unit": "u_IDGS16_Ingles_pat0_#0",
+            "group": "IDGS16",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Mar17",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles2"
+        },
+        {
+            "unit": "u_IDGS16_Ingles_pat0_#1",
+            "group": "IDGS16",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Vie19",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles2"
+        },
+        {
+            "unit": "u_IDGS16_Ingles_pat0_#2",
+            "group": "IDGS16",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Vie20",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles2"
+        },
+        {
+            "unit": "u_IDGS16_Ingles_pat0_#3",
+            "group": "IDGS16",
+            "subj": "Ingles",
+            "len": 1,
+            "start": "Vie18",
+            "room": "Aula 13 edificio k",
+            "prof": "Profe Ingles2"
+        },
+        {
+            "unit": "u_IDGS16_Metodologia de desarrollo de proyectos_pat0_#0",
+            "group": "IDGS16",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Mar20",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS16_Metodologia de desarrollo de proyectos_pat0_#1",
+            "group": "IDGS16",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Lun21",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS16_Metodologia de desarrollo de proyectos_pat0_#2",
+            "group": "IDGS16",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "len": 1,
+            "start": "Mar19",
+            "room": "SUMPA edificio k",
+            "prof": "Angelica"
+        },
+        {
+            "unit": "u_IDGS16_Experiencia de usuario_pat0_#0",
+            "group": "IDGS16",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Vie17",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS16_Experiencia de usuario_pat0_#1",
+            "group": "IDGS16",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Jue20",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS16_Experiencia de usuario_pat0_#2",
+            "group": "IDGS16",
+            "subj": "Experiencia de usuario",
+            "len": 1,
+            "start": "Jue21",
+            "room": "Aula 10 edificio j",
+            "prof": "Emmanuel"
+        },
+        {
+            "unit": "u_IDGS16_Seguridad informatica_pat0_#0",
+            "group": "IDGS16",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Lun18",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS16_Seguridad informatica_pat0_#1",
+            "group": "IDGS16",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Lun17",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        },
+        {
+            "unit": "u_IDGS16_Seguridad informatica_pat0_#2",
+            "group": "IDGS16",
+            "subj": "Seguridad informatica",
+            "len": 1,
+            "start": "Mar21",
+            "room": "Aula 12 edificio j",
+            "prof": "Brandon"
+        }
+    ],
+    "patterns": [
+        {
+            "group": "IDGS14",
+            "subj": "administracion del tiempo",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS14",
+            "subj": "Matematicas para ingenieria",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS14",
+            "subj": "Arquitectura de software",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS14",
+            "subj": "Ingles",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS14",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS14",
+            "subj": "Experiencia de usuario",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS14",
+            "subj": "Seguridad informatica",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS15",
+            "subj": "administracion del tiempo",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS15",
+            "subj": "Matematicas para ingenieria",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS15",
+            "subj": "Arquitectura de software",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS15",
+            "subj": "Ingles",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS15",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS15",
+            "subj": "Experiencia de usuario",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS15",
+            "subj": "Seguridad informatica",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS16",
+            "subj": "administracion del tiempo",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS16",
+            "subj": "Matematicas para ingenieria",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS16",
+            "subj": "Arquitectura de software",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS16",
+            "subj": "Ingles",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS16",
+            "subj": "Metodologia de desarrollo de proyectos",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS16",
+            "subj": "Experiencia de usuario",
+            "chosen": "pat0",
+            "type": "spread"
+        },
+        {
+            "group": "IDGS16",
+            "subj": "Seguridad informatica",
+            "chosen": "pat0",
+            "type": "spread"
+        }
+    ]
+}

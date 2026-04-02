@@ -1,0 +1,32 @@
+[
+    {
+        "group": "IDGS14",
+        "materia": "Seguridad informatica",
+        "horas_faltantes": 1,
+        "prof": "Brandon",
+        "room": "Aula 12 edificio j",
+        "slots_sugeridos": [
+            "Vie21"
+        ]
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Arquitectura de software",
+        "horas_faltantes": 1,
+        "prof": "Manuel",
+        "room": "Aula 11 edificio I",
+        "slots_sugeridos": [
+            "Vie21"
+        ]
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Seguridad informatica",
+        "horas_faltantes": 1,
+        "prof": "Brandon",
+        "room": "Aula 12 edificio j",
+        "slots_sugeridos": [
+            "Vie21"
+        ]
+    }
+]

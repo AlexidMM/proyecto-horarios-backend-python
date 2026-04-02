@@ -1,0 +1,602 @@
+[
+    {
+        "group": "IDGS14",
+        "materia": "administracion del tiempo",
+        "hora": 0,
+        "slot": "Mar19",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "administracion del tiempo",
+        "hora": 1,
+        "slot": "Mar18",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "administracion del tiempo",
+        "hora": 2,
+        "slot": "Mar17",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "administracion del tiempo",
+        "hora": 0,
+        "slot": "Lun21",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "administracion del tiempo",
+        "hora": 1,
+        "slot": "Mar17",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "administracion del tiempo",
+        "hora": 2,
+        "slot": "Mar18",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "administracion del tiempo",
+        "hora": 0,
+        "slot": "Mar21",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "administracion del tiempo",
+        "hora": 1,
+        "slot": "Mar20",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "administracion del tiempo",
+        "hora": 2,
+        "slot": "Mie17",
+        "room": "Aula 12 edificio k",
+        "prof": "Maria Guadalupe"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Matematicas para ingenieria",
+        "hora": 0,
+        "slot": "Mar20",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Matematicas para ingenieria",
+        "hora": 1,
+        "slot": "Mar17",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Matematicas para ingenieria",
+        "hora": 2,
+        "slot": "Mar18",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Matematicas para ingenieria",
+        "hora": 3,
+        "slot": "Mar19",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Matematicas para ingenieria",
+        "hora": 0,
+        "slot": "Mar19",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Matematicas para ingenieria",
+        "hora": 1,
+        "slot": "Mar20",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Matematicas para ingenieria",
+        "hora": 2,
+        "slot": "Mie17",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Matematicas para ingenieria",
+        "hora": 3,
+        "slot": "Mar21",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Matematicas para ingenieria",
+        "hora": 0,
+        "slot": "Jue21",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Matematicas para ingenieria",
+        "hora": 1,
+        "slot": "Vie17",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Matematicas para ingenieria",
+        "hora": 2,
+        "slot": "Vie18",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Matematicas para ingenieria",
+        "hora": 3,
+        "slot": "Jue20",
+        "room": "Aula 11 edificio k",
+        "prof": "Jesus Hernan"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Arquitectura de software",
+        "hora": 0,
+        "slot": "Mie21",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Arquitectura de software",
+        "hora": 1,
+        "slot": "Jue18",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Arquitectura de software",
+        "hora": 2,
+        "slot": "Mar17",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Arquitectura de software",
+        "hora": 3,
+        "slot": "Mie17",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Arquitectura de software",
+        "hora": 4,
+        "slot": "Mie19",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Arquitectura de software",
+        "hora": 0,
+        "slot": "Vie19",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Arquitectura de software",
+        "hora": 1,
+        "slot": "Vie17",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Arquitectura de software",
+        "hora": 2,
+        "slot": "Vie21",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Arquitectura de software",
+        "hora": 3,
+        "slot": "Vie18",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Arquitectura de software",
+        "hora": 4,
+        "slot": "Vie20",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Arquitectura de software",
+        "hora": 0,
+        "slot": "Lun20",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Arquitectura de software",
+        "hora": 1,
+        "slot": "Lun17",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Arquitectura de software",
+        "hora": 2,
+        "slot": "Mie20",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Arquitectura de software",
+        "hora": 3,
+        "slot": "Vie17",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Arquitectura de software",
+        "hora": 4,
+        "slot": "Mar17",
+        "room": "Aula 11 edificio I",
+        "prof": "Manuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Ingles",
+        "hora": 0,
+        "slot": "Jue18",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles3"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Ingles",
+        "hora": 1,
+        "slot": "Jue17",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles3"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Ingles",
+        "hora": 2,
+        "slot": "Mar18",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles3"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Ingles",
+        "hora": 3,
+        "slot": "Jue19",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles3"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Ingles",
+        "hora": 0,
+        "slot": "Mar19",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles1"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Ingles",
+        "hora": 1,
+        "slot": "Mar20",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles1"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Ingles",
+        "hora": 2,
+        "slot": "Mie17",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles1"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Ingles",
+        "hora": 3,
+        "slot": "Mar21",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles1"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Ingles",
+        "hora": 0,
+        "slot": "Jue21",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles2"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Ingles",
+        "hora": 1,
+        "slot": "Vie17",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles2"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Ingles",
+        "hora": 2,
+        "slot": "Jue19",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles2"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Ingles",
+        "hora": 3,
+        "slot": "Jue20",
+        "room": "Aula 13 edificio k",
+        "prof": "Profe Ingles2"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 0,
+        "slot": "Mar19",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 1,
+        "slot": "Mar18",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 2,
+        "slot": "Mar17",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 0,
+        "slot": "Lun21",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 1,
+        "slot": "Mar17",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 2,
+        "slot": "Mar18",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 0,
+        "slot": "Mar21",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 1,
+        "slot": "Mar20",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "hora": 2,
+        "slot": "Mie17",
+        "room": "SUMPA edificio k",
+        "prof": "Angelica"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Experiencia de usuario",
+        "hora": 0,
+        "slot": "Mar19",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Experiencia de usuario",
+        "hora": 1,
+        "slot": "Mar18",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Experiencia de usuario",
+        "hora": 2,
+        "slot": "Mar20",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Experiencia de usuario",
+        "hora": 0,
+        "slot": "Mar19",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Experiencia de usuario",
+        "hora": 1,
+        "slot": "Mar17",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Experiencia de usuario",
+        "hora": 2,
+        "slot": "Mar18",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Experiencia de usuario",
+        "hora": 0,
+        "slot": "Mar21",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Experiencia de usuario",
+        "hora": 1,
+        "slot": "Mie18",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Experiencia de usuario",
+        "hora": 2,
+        "slot": "Mie17",
+        "room": "Aula 10 edificio j",
+        "prof": "Emmanuel"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Seguridad informatica",
+        "hora": 0,
+        "slot": "Mar19",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Seguridad informatica",
+        "hora": 1,
+        "slot": "Mar18",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Seguridad informatica",
+        "hora": 2,
+        "slot": "Mar17",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Seguridad informatica",
+        "hora": 0,
+        "slot": "Lun21",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Seguridad informatica",
+        "hora": 1,
+        "slot": "Mar17",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Seguridad informatica",
+        "hora": 2,
+        "slot": "Mar18",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Seguridad informatica",
+        "hora": 0,
+        "slot": "Mar21",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Seguridad informatica",
+        "hora": 1,
+        "slot": "Mar20",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Seguridad informatica",
+        "hora": 2,
+        "slot": "Mie17",
+        "room": "Aula 12 edificio j",
+        "prof": "Brandon"
+    }
+]

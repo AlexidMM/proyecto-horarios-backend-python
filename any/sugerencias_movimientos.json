@@ -1,0 +1,50 @@
+[
+    {
+        "accion": "swap",
+        "group": "IDGS14",
+        "materia": "Seguridad informatica",
+        "slot": "Lun17",
+        "detalle": "Mover 'Matematicas para ingenieria' de Lun17 a Vie21 y asignar 'Seguridad informatica' en Lun17 para el grupo IDGS14",
+        "swap": {
+            "swap": true,
+            "mover": {
+                "group": "IDGS14",
+                "materia": "Matematicas para ingenieria",
+                "from": "Lun17",
+                "to": "Vie21"
+            }
+        }
+    },
+    {
+        "accion": "swap",
+        "group": "IDGS15",
+        "materia": "Seguridad informatica",
+        "slot": "Lun17",
+        "detalle": "Mover 'Ingles' de Lun17 a Vie21 y asignar 'Seguridad informatica' en Lun17 para el grupo IDGS15",
+        "swap": {
+            "swap": true,
+            "mover": {
+                "group": "IDGS15",
+                "materia": "Ingles",
+                "from": "Lun17",
+                "to": "Vie21"
+            }
+        }
+    },
+    {
+        "accion": "swap",
+        "group": "IDGS16",
+        "materia": "Arquitectura de software",
+        "slot": "Lun17",
+        "detalle": "Mover 'administracion del tiempo' de Lun17 a Vie21 y asignar 'Arquitectura de software' en Lun17 para el grupo IDGS16",
+        "swap": {
+            "swap": true,
+            "mover": {
+                "group": "IDGS16",
+                "materia": "administracion del tiempo",
+                "from": "Lun17",
+                "to": "Vie21"
+            }
+        }
+    }
+]

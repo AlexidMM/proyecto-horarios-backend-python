@@ -1,0 +1,527 @@
+[
+    {
+        "group": "IDGS15",
+        "subj": "Ingles",
+        "start": "Lun19",
+        "room": "Salón 13 Edificio K",
+        "prof": "Juan josé Vazquez Rodriguez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Ingles",
+        "start": "Mar19",
+        "room": "Salón 13 Edificio K",
+        "prof": "Juan josé Vazquez Rodriguez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Ingles",
+        "start": "Mie19",
+        "room": "Salón 13 Edificio K",
+        "prof": "Juan josé Vazquez Rodriguez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Ingles",
+        "start": "Jue19",
+        "room": "Salón 13 Edificio K",
+        "prof": "Juan josé Vazquez Rodriguez"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Ingles",
+        "start": "Lun20",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 2"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Ingles",
+        "start": "Mar20",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 2"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Ingles",
+        "start": "Mie20",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 2"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Ingles",
+        "start": "Jue20",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 2"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Ingles",
+        "start": "Lun18",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 3"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Ingles",
+        "start": "Mar18",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 3"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Ingles",
+        "start": "Mie18",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 3"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Ingles",
+        "start": "Jue18",
+        "room": "Salón 13 Edificio K",
+        "prof": "profe ingles 3"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Administración del Tiempo",
+        "start": "Lun17",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Vie21",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Arquitectura de software",
+        "start": "Lun17",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Lun18",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Administración del Tiempo",
+        "start": "Vie20",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Administración del Tiempo",
+        "start": "Lun19",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Arquitectura de software",
+        "start": "Lun19",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Lun20",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Arquitectura de software",
+        "start": "Lun20",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Lun21",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Experiencia de Usuario",
+        "start": "Lun21",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Seguridad Informatica",
+        "start": "Lun21",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Administración del Tiempo",
+        "start": "Mar17",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Mar17",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Arquitectura de software",
+        "start": "Mar17",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Mar18",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Administración del Tiempo",
+        "start": "Mar18",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Administración del Tiempo",
+        "start": "Mar19",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Arquitectura de software",
+        "start": "Mar19",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Mar20",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Arquitectura de software",
+        "start": "Mar20",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Mar21",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Experiencia de Usuario",
+        "start": "Mar21",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Seguridad Informatica",
+        "start": "Mar21",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Administración del Tiempo",
+        "start": "Mie17",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Mie17",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Arquitectura de software",
+        "start": "Mie17",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Administración del Tiempo",
+        "start": "Mie18",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Arquitectura de software",
+        "start": "Mie18",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Administración del Tiempo",
+        "start": "Vie21",
+        "room": "Salón 12 Edificio K",
+        "prof": "Maria Guadalupe Callejas Ramirez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Mie19",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Arquitectura de software",
+        "start": "Mie20",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Mie20",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Mie21",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Experiencia de Usuario",
+        "start": "Mie21",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Seguridad Informatica",
+        "start": "Mie21",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Jue17",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Arquitectura de software",
+        "start": "Jue17",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Experiencia de Usuario",
+        "start": "Jue17",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Jue18",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Experiencia de Usuario",
+        "start": "Jue18",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Arquitectura de software",
+        "start": "Jue19",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Jue19",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Matematicas para Ingenieria 1",
+        "start": "Jue20",
+        "room": "Salón 11 Edificio K",
+        "prof": "Jesus Hernan Perez Vazquez"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Arquitectura de software",
+        "start": "Jue20",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Experiencia de Usuario",
+        "start": "Jue21",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Jue21",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Seguridad Informatica",
+        "start": "Jue21",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Arquitectura de software",
+        "start": "Vie17",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Experiencia de Usuario",
+        "start": "Vie17",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Seguridad Informatica",
+        "start": "Vie17",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Experiencia de Usuario",
+        "start": "Vie18",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Arquitectura de software",
+        "start": "Vie18",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Seguridad Informatica",
+        "start": "Vie18",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Arquitectura de software",
+        "start": "Vie19",
+        "room": "Salon 12 Edificio I",
+        "prof": "Manuel Contreras Castillo"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Vie19",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Seguridad Informatica",
+        "start": "Vie19",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Vie20",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Experiencia de Usuario",
+        "start": "Vie20",
+        "room": "Salon 11 Edificio J",
+        "prof": "Emmanuel Martinez Hernándes"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Vie21",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS15",
+        "subj": "Seguridad Informatica",
+        "start": "Lun18",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    },
+    {
+        "group": "IDGS14",
+        "subj": "Metodologia de desarrollo de proyectos",
+        "start": "Mie19",
+        "room": "SUMPA Edificio K",
+        "prof": "Angelica Garduño Bustamante"
+    },
+    {
+        "group": "IDGS16",
+        "subj": "Seguridad Informatica",
+        "start": "Lun17",
+        "room": "Salón 12 Edificio J",
+        "prof": "Brandon Efren Venegas Olvera"
+    }
+]

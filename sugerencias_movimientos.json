@@ -1,0 +1,50 @@
+[
+    {
+        "accion": "swap",
+        "group": "IDGS14",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "slot": "Lun19",
+        "detalle": "Mover 'administracion del tiempo' de Lun19 a Vie21 y asignar 'Metodologia de desarrollo de proyectos' en Lun19 para el grupo IDGS14",
+        "swap": {
+            "swap": true,
+            "mover": {
+                "group": "IDGS14",
+                "materia": "administracion del tiempo",
+                "from": "Lun19",
+                "to": "Vie21"
+            }
+        }
+    },
+    {
+        "accion": "swap",
+        "group": "IDGS15",
+        "materia": "Seguridad informatica",
+        "slot": "Lun17",
+        "detalle": "Mover 'Matematicas para ingenieria' de Lun17 a Vie20 y asignar 'Seguridad informatica' en Lun17 para el grupo IDGS15",
+        "swap": {
+            "swap": true,
+            "mover": {
+                "group": "IDGS15",
+                "materia": "Matematicas para ingenieria",
+                "from": "Lun17",
+                "to": "Vie20"
+            }
+        }
+    },
+    {
+        "accion": "swap",
+        "group": "IDGS16",
+        "materia": "Seguridad informatica",
+        "slot": "Lun17",
+        "detalle": "Mover 'administracion del tiempo' de Lun17 a Vie21 y asignar 'Seguridad informatica' en Lun17 para el grupo IDGS16",
+        "swap": {
+            "swap": true,
+            "mover": {
+                "group": "IDGS16",
+                "materia": "administracion del tiempo",
+                "from": "Lun17",
+                "to": "Vie21"
+            }
+        }
+    }
+]

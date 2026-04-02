@@ -1,0 +1,17 @@
+[
+    {
+        "group": "IDGS14",
+        "materia": "Seguridad informatica",
+        "horas_faltantes": 1
+    },
+    {
+        "group": "IDGS15",
+        "materia": "Seguridad informatica",
+        "horas_faltantes": 1
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Arquitectura de software",
+        "horas_faltantes": 1
+    }
+]

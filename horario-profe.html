@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Horarios por Profesor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #aaa;
+            padding: 6px 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #f0f0f0;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Horarios por Profesor</h1>
+    <div id="contenedor"></div>
+    <script>
+        // Días y horas en orden
+        const DAYS = ["Lun", "Mar", "Mie", "Jue", "Vie"];
+        const HOURS = [17, 18, 19, 20, 21];
+        // Cargar el JSON generado por el algoritmo
+        fetch('horario_greedy_aplicado.json')
+            .then(r => r.json())
+            .then(json => {
+                // Compatibilidad: si es arreglo plano, úsalo; si es objeto con assignments, úsalo
+                const data = Array.isArray(json) ? json : (json.assignments || []);
+                // Agrupar por profesor
+                const profs = {};
+                data.forEach(item => {
+                    if (!profs[item.prof]) profs[item.prof] = [];
+                    profs[item.prof].push(item);
+                });
+                // Ordenar y mostrar
+                const cont = document.getElementById('contenedor');
+                Object.keys(profs).sort().forEach(prof => {
+                    const clases = profs[prof];
+                    // Crear matriz vacía [día][hora]
+                    const matriz = {};
+                    DAYS.forEach(d => { matriz[d] = {}; HOURS.forEach(h => matriz[d][h] = null); });
+                    // Llenar matriz
+                    clases.forEach(c => {
+                        const slot = c.start || c.slot;
+                        const dia = slot.slice(0, 3);
+                        const hora = parseInt(slot.slice(3));
+                        matriz[dia][hora] = c;
+                    });
+                    // Crear tabla
+                    let html = `<h2>${prof}</h2><table><tr><th>Hora</th>`;
+                    DAYS.forEach(d => html += `<th>${d}</th>`);
+                    html += '</tr>';
+                    HOURS.forEach(h => {
+                        html += `<tr><td>${h}:00</td>`;
+                        DAYS.forEach(d => {
+                            const c = matriz[d][h];
+                            if (c) {
+                                html += `<td><b>${c.group}</b><br>${c.subj || c.materia}<br><small>${c.room}</small></td>`;
+                            } else {
+                                html += '<td></td>';
+                            }
+                        });
+                        html += '</tr>';
+                    });
+                    html += '</table>';
+                    cont.innerHTML += html;
+                });
+            });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+{
+  "IDGS14": [
+    {
+      "id": "administracion del tiempo",
+      "H": 3,
+      "rooms": [
+        "Aula 12 edificio k"
+      ],
+      "profs": [
+        "Maria Guadalupe"
+      ]
+    },
+    {
+      "id": "Matematicas para ingenieria",
+      "H": 4,
+      "rooms": [
+        "Aula 11 edificio k"
+      ],
+      "profs": [
+        "Jesus Hernan"
+      ]
+    },
+    {
+      "id": "Arquitectura de software",
+      "H": 5,
+      "rooms": [
+        "Aula 11 edificio I"
+      ],
+      "profs": [
+        "Manuel"
+      ]
+    },
+    {
+      "id": "Ingles",
+      "H": 4,
+      "rooms": [
+        "Aula 13 edificio k"
+      ],
+      "profs": [
+        "Profe Ingles3"
+      ]
+    },
+    {
+      "id": "Metodologia de desarrollo de proyectos",
+      "H": 3,
+      "rooms": [
+        "SUMPA edificio k"
+      ],
+      "profs": [
+        "Angelica"
+      ]
+    },
+    {
+      "id": "Experiencia de usuario",
+      "H": 3,
+      "rooms": [
+        "Aula 10 edificio j"
+      ],
+      "profs": [
+        "Emmanuel"
+      ]
+    },
+    {
+      "id": "Seguridad informatica",
+      "H": 3,
+      "rooms": [
+        "Aula 12 edificio j"
+      ],
+      "profs": [
+        "Brandon"
+      ]
+    }
+  ],
+  "IDGS15": [
+    {
+      "id": "administracion del tiempo",
+      "H": 3,
+      "rooms": [
+        "Aula 12 edificio k"
+      ],
+      "profs": [
+        "Maria Guadalupe"
+      ]
+    },
+    {
+      "id": "Matematicas para ingenieria",
+      "H": 4,
+      "rooms": [
+        "Aula 11 edificio k"
+      ],
+      "profs": [
+        "Jesus Hernan"
+      ]
+    },
+    {
+      "id": "Arquitectura de software",
+      "H": 5,
+      "rooms": [
+        "Aula 11 edificio I"
+      ],
+      "profs": [
+        "Manuel"
+      ]
+    },
+    {
+      "id": "Ingles",
+      "H": 4,
+      "rooms": [
+        "Aula 13 edificio k"
+      ],
+      "profs": [
+        "Profe Ingles1"
+      ]
+    },
+    {
+      "id": "Metodologia de desarrollo de proyectos",
+      "H": 3,
+      "rooms": [
+        "SUMPA edificio k"
+      ],
+      "profs": [
+        "Angelica"
+      ]
+    },
+    {
+      "id": "Experiencia de usuario",
+      "H": 3,
+      "rooms": [
+        "Aula 10 edificio j"
+      ],
+      "profs": [
+        "Emmanuel"
+      ]
+    },
+    {
+      "id": "Seguridad informatica",
+      "H": 3,
+      "rooms": [
+        "Aula 12 edificio j"
+      ],
+      "profs": [
+        "Brandon"
+      ]
+    }
+  ],
+  "IDGS16": [
+    {
+      "id": "administracion del tiempo",
+      "H": 3,
+      "rooms": [
+        "Aula 12 edificio k"
+      ],
+      "profs": [
+        "Maria Guadalupe"
+      ]
+    },
+    {
+      "id": "Matematicas para ingenieria",
+      "H": 4,
+      "rooms": [
+        "Aula 11 edificio k"
+      ],
+      "profs": [
+        "Jesus Hernan"
+      ]
+    },
+    {
+      "id": "Arquitectura de software",
+      "H": 5,
+      "rooms": [
+        "Aula 11 edificio I"
+      ],
+      "profs": [
+        "Manuel"
+      ]
+    },
+    {
+      "id": "Ingles",
+      "H": 4,
+      "rooms": [
+        "Aula 13 edificio k"
+      ],
+      "profs": [
+        "Profe Ingles2"
+      ]
+    },
+    {
+      "id": "Metodologia de desarrollo de proyectos",
+      "H": 3,
+      "rooms": [
+        "SUMPA edificio k"
+      ],
+      "profs": [
+        "Angelica"
+      ]
+    },
+    {
+      "id": "Experiencia de usuario",
+      "H": 3,
+      "rooms": [
+        "Aula 10 edificio j"
+      ],
+      "profs": [
+        "Emmanuel"
+      ]
+    },
+    {
+      "id": "Seguridad informatica",
+      "H": 3,
+      "rooms": [
+        "Aula 12 edificio j"
+      ],
+      "profs": [
+        "Brandon"
+      ]
+    }
+  ]
+}

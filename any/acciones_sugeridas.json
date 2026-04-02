@@ -1,0 +1,20 @@
+[
+    {
+        "accion": "sin_slot",
+        "group": "IDGS14",
+        "materia": "Seguridad informatica",
+        "detalle": "No hay slot válido para 'Seguridad informatica' del grupo IDGS14"
+    },
+    {
+        "accion": "sin_slot",
+        "group": "IDGS15",
+        "materia": "Arquitectura de software",
+        "detalle": "No hay slot válido para 'Arquitectura de software' del grupo IDGS15"
+    },
+    {
+        "accion": "sin_slot",
+        "group": "IDGS16",
+        "materia": "Seguridad informatica",
+        "detalle": "No hay slot válido para 'Seguridad informatica' del grupo IDGS16"
+    }
+]

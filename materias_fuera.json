@@ -1,0 +1,17 @@
+[
+    {
+        "group": "IDGS15",
+        "materia": "Seguridad Informatica",
+        "horas_faltantes": 1
+    },
+    {
+        "group": "IDGS14",
+        "materia": "Metodologia de desarrollo de proyectos",
+        "horas_faltantes": 1
+    },
+    {
+        "group": "IDGS16",
+        "materia": "Seguridad Informatica",
+        "horas_faltantes": 1
+    }
+]
