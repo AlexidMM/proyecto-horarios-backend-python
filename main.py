@@ -36,35 +36,27 @@ def norm(x):
 
 # Datos de prueba
 TEST_SUBJECTS = {
-  "IDGS15": [
-    {"id": "Administración del Tiempo","H": 3,"rooms": ["Salón 12 Edificio K"],"profs": ["Maria Guadalupe Callejas Ramirez"]},
-    {"id": "Matematicas para Ingenieria 1","H": 4,"rooms": ["Salón 11 Edificio K"],"profs": ["Jesus Hernan Perez Vazquez"]},
-    {"id": "Arquitectura de software","H": 5,"rooms": ["Salon 12 Edificio I"],"profs": ["Manuel Contreras Castillo"]},
-    {"id": "Ingles","H": 4,"rooms": ["Salón 13 Edificio K"],"profs": ["Juan josé Vazquez Rodriguez"]},
-    {"id": "Metodologia de desarrollo de proyectos","H": 3,"rooms": ["SUMPA Edificio K"],"profs": ["Angelica Garduño Bustamante"],"min_hora": 19},
-    {"id": "Experiencia de Usuario","H": 3,"rooms": ["Salon 11 Edificio J"],"profs": ["Emmanuel Martinez Hernándes"]},
-    {"id": "Seguridad Informatica","H": 3,"rooms": ["Salón 12 Edificio J"],"profs": ["Brandon Efren Venegas Olvera"]}
-   
-  ],
-  "IDGS14": [
-    {"id": "Administración del Tiempo","H": 3,"rooms": ["Salón 12 Edificio K"],"profs": ["Maria Guadalupe Callejas Ramirez"]},
-    {"id": "Matematicas para Ingenieria 1","H": 4,"rooms": ["Salón 11 Edificio K"],"profs": ["Jesus Hernan Perez Vazquez"]},
-    {"id": "Arquitectura de software","H": 5,"rooms": ["Salon 12 Edificio I"],"profs": ["Manuel Contreras Castillo"]},
-    {"id": "Ingles","H": 4,"rooms": ["Salón 13 Edificio K"],"profs": ["profe ingles 2"]},
-    {"id": "Metodologia de desarrollo de proyectos","H": 3,"rooms": ["SUMPA Edificio K"],"profs": ["Angelica Garduño Bustamante"],"min_hora": 19},
-    {"id": "Experiencia de Usuario","H": 3,"rooms": ["Salon 11 Edificio J"],"profs": ["Emmanuel Martinez Hernándes"]},
-    {"id": "Seguridad Informatica","H": 3,"rooms": ["Salón 12 Edificio J"],"profs": ["Brandon Efren Venegas Olvera"]}
-
-  ],
-  "IDGS16": [
-    {"id": "Administración del Tiempo","H": 3,"rooms": ["Salón 12 Edificio K"],"profs": ["Maria Guadalupe Callejas Ramirez"]},
-    {"id": "Matematicas para Ingenieria 1","H": 4,"rooms": ["Salón 11 Edificio K"],"profs": ["Jesus Hernan Perez Vazquez"]},
-    {"id": "Arquitectura de software","H": 5,"rooms": ["Salon 12 Edificio I"],"profs": ["Manuel Contreras Castillo"]},
-    {"id": "Ingles","H": 4,"rooms": ["Salón 13 Edificio K"],"profs": ["profe ingles 3"]},
-    {"id": "Metodologia de desarrollo de proyectos","H": 3,"rooms": ["SUMPA Edificio K"],"profs": ["Angelica Garduño Bustamante"],"min_hora": 19},
-    {"id": "Experiencia de Usuario","H": 3,"rooms": ["Salon 11 Edificio J"],"profs": ["Emmanuel Martinez Hernándes"]},
-    {"id": "Seguridad Informatica","H": 3,"rooms": ["Salón 12 Edificio J"],"profs": ["Brandon Efren Venegas Olvera"]}
-  ]
+    "1A": [
+        {"id": "Matematicas", "H": 5, "rooms": ["Aula 1"], "profs": ["Ana Lopez"]},
+        {"id": "Espanol", "H": 5, "rooms": ["Aula 1"], "profs": ["Carlos Perez"]},
+        {"id": "Ciencias", "H": 4, "rooms": ["Aula 2"], "profs": ["Mario Garcia"]},
+        {"id": "Historia", "H": 3, "rooms": ["Aula 3"], "profs": ["Carlos Perez"]},
+        {"id": "Ingles", "H": 3, "rooms": ["Aula 2"], "profs": ["Ana Lopez"]}
+    ],
+    "2A": [
+        {"id": "Matematicas", "H": 5, "rooms": ["Aula 2"], "profs": ["Ana Lopez"]},
+        {"id": "Espanol", "H": 5, "rooms": ["Aula 2"], "profs": ["Carlos Perez"]},
+        {"id": "Ciencias", "H": 4, "rooms": ["Aula 3"], "profs": ["Mario Garcia"]},
+        {"id": "Historia", "H": 3, "rooms": ["Aula 1"], "profs": ["Carlos Perez"]},
+        {"id": "Ingles", "H": 3, "rooms": ["Aula 1"], "profs": ["Ana Lopez"]}
+    ],
+    "3A": [
+        {"id": "Matematicas", "H": 5, "rooms": ["Aula 3"], "profs": ["Ana Lopez"]},
+        {"id": "Espanol", "H": 5, "rooms": ["Aula 3"], "profs": ["Carlos Perez"]},
+        {"id": "Ciencias", "H": 4, "rooms": ["Aula 1"], "profs": ["Mario Garcia"]},
+        {"id": "Historia", "H": 3, "rooms": ["Aula 2"], "profs": ["Carlos Perez"]},
+        {"id": "Ingles", "H": 3, "rooms": ["Aula 2"], "profs": ["Ana Lopez"]}
+    ]
 }
 
 def get_prof_room(materia, grupo):
