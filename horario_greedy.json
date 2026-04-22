@@ -1,324 +1,625 @@
 [
     {
+        "group": "1A",
+        "subj": "Ingles",
+        "start": "Lun05",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1A",
+        "subj": "Ingles",
+        "start": "Mar05",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1A",
+        "subj": "Ingles",
+        "start": "Mie05",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1A",
+        "subj": "Ingles",
+        "start": "Jue05",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1A",
+        "subj": "Ingles",
+        "start": "Vie05",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1B",
+        "subj": "Ingles",
+        "start": "Lun04",
+        "room": "Aula 5",
+        "prof": "David Clark"
+    },
+    {
+        "group": "1B",
+        "subj": "Ingles",
+        "start": "Mar04",
+        "room": "Aula 5",
+        "prof": "David Clark"
+    },
+    {
+        "group": "1B",
+        "subj": "Ingles",
+        "start": "Mie04",
+        "room": "Aula 5",
+        "prof": "David Clark"
+    },
+    {
+        "group": "1B",
+        "subj": "Ingles",
+        "start": "Jue04",
+        "room": "Aula 5",
+        "prof": "David Clark"
+    },
+    {
+        "group": "1B",
+        "subj": "Ingles",
+        "start": "Vie04",
+        "room": "Aula 5",
+        "prof": "David Clark"
+    },
+    {
         "group": "1C",
+        "subj": "Ingles",
+        "start": "Lun02",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1C",
+        "subj": "Ingles",
+        "start": "Mar02",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1C",
+        "subj": "Ingles",
+        "start": "Mie02",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1C",
+        "subj": "Ingles",
+        "start": "Jue02",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1C",
+        "subj": "Ingles",
+        "start": "Vie02",
+        "room": "Aula 5",
+        "prof": "Sofia Cruz"
+    },
+    {
+        "group": "1B",
+        "subj": "Artes",
+        "start": "Lun01",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1A",
         "subj": "Ciencias",
-        "start": "Lun17",
-        "room": "Laboratorio 1",
+        "start": "Lun01",
+        "room": "Lab Ciencias",
         "prof": "Ana Lopez"
     },
     {
-        "group": "1D",
-        "subj": "Historia",
-        "start": "Lun17",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
         "group": "1C",
-        "subj": "Historia",
-        "start": "Lun18",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
+        "subj": "Computacion",
+        "start": "Lun01",
+        "room": "Aula B2",
+        "prof": "Brenda Nunez"
     },
     {
         "group": "1B",
         "subj": "Ciencias",
-        "start": "Lun18",
-        "room": "Laboratorio 1",
+        "start": "Lun02",
+        "room": "Lab Ciencias",
         "prof": "Mario Garcia"
     },
     {
         "group": "1A",
-        "subj": "Matematicas",
-        "start": "Lun18",
-        "room": "Aula 1",
-        "prof": "Ana Lopez"
+        "subj": "Artes",
+        "start": "Lun02",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1B",
+        "subj": "Educacion Fisica",
+        "start": "Lun03",
+        "room": "Aula B9",
+        "prof": "Miguel Torres"
     },
     {
         "group": "1A",
-        "subj": "Historia",
-        "start": "Lun19",
-        "room": "Aula 3",
+        "subj": "Computacion",
+        "start": "Lun03",
+        "room": "Aula B2",
+        "prof": "Jorge Ramos"
+    },
+    {
+        "group": "1C",
+        "subj": "Artes",
+        "start": "Lun03",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1A",
+        "subj": "Educacion Fisica",
+        "start": "Lun04",
+        "room": "Aula B9",
+        "prof": "Miguel Torres"
+    },
+    {
+        "group": "1C",
+        "subj": "Ciencias",
+        "start": "Lun04",
+        "room": "Lab Ciencias",
+        "prof": "Teresa Luna"
+    },
+    {
+        "group": "1C",
+        "subj": "Educacion Fisica",
+        "start": "Lun05",
+        "room": "Aula B9",
+        "prof": "Miguel Torres"
+    },
+    {
+        "group": "1B",
+        "subj": "Espanol",
+        "start": "Lun05",
+        "room": "Aula 1",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1C",
+        "subj": "Espanol",
+        "start": "Lun06",
+        "room": "Aula 1",
+        "prof": "Laura Medina"
+    },
+    {
+        "group": "1A",
+        "subj": "Formacion Civica y Etica",
+        "start": "Lun06",
+        "room": "Aula 8",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1B",
+        "subj": "Geografia",
+        "start": "Lun06",
+        "room": "Aula 7",
         "prof": "Carlos Perez"
     },
     {
-        "group": "1D",
+        "group": "1C",
+        "subj": "Artes",
+        "start": "Mar01",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1B",
         "subj": "Ciencias",
-        "start": "Lun19",
-        "room": "Laboratorio 1",
+        "start": "Mar01",
+        "room": "Lab Ciencias",
         "prof": "Mario Garcia"
     },
     {
-        "group": "1B",
-        "subj": "Matematicas",
-        "start": "Lun19",
-        "room": "Aula 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1D",
-        "subj": "Matematicas",
-        "start": "Lun20",
-        "room": "Aula 1",
-        "prof": "Ana Lopez"
+        "group": "1A",
+        "subj": "Computacion",
+        "start": "Mar01",
+        "room": "Aula B2",
+        "prof": "Jorge Ramos"
     },
     {
         "group": "1B",
-        "subj": "Historia",
-        "start": "Lun20",
-        "room": "Aula 3",
+        "subj": "Artes",
+        "start": "Mar02",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1A",
+        "subj": "Ciencias",
+        "start": "Mar02",
+        "room": "Lab Ciencias",
+        "prof": "Ana Lopez"
+    },
+    {
+        "group": "1A",
+        "subj": "Artes",
+        "start": "Mar03",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1B",
+        "subj": "Educacion Fisica",
+        "start": "Mar03",
+        "room": "Aula B9",
+        "prof": "Miguel Torres"
+    },
+    {
+        "group": "1C",
+        "subj": "Ciencias",
+        "start": "Mar03",
+        "room": "Lab Ciencias",
+        "prof": "Teresa Luna"
+    },
+    {
+        "group": "1C",
+        "subj": "Computacion",
+        "start": "Mar04",
+        "room": "Aula B2",
+        "prof": "Brenda Nunez"
+    },
+    {
+        "group": "1A",
+        "subj": "Educacion Fisica",
+        "start": "Mar04",
+        "room": "Aula B9",
+        "prof": "Miguel Torres"
+    },
+    {
+        "group": "1C",
+        "subj": "Educacion Fisica",
+        "start": "Mar05",
+        "room": "Aula B9",
+        "prof": "Miguel Torres"
+    },
+    {
+        "group": "1B",
+        "subj": "Espanol",
+        "start": "Mar05",
+        "room": "Aula 1",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1A",
+        "subj": "Espanol",
+        "start": "Mar06",
+        "room": "Aula 1",
+        "prof": "Laura Medina"
+    },
+    {
+        "group": "1C",
+        "subj": "Formacion Civica y Etica",
+        "start": "Mar06",
+        "room": "Aula 8",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1B",
+        "subj": "Geografia",
+        "start": "Mar06",
+        "room": "Aula 7",
         "prof": "Carlos Perez"
     },
     {
-        "group": "1D",
+        "group": "1B",
+        "subj": "Artes",
+        "start": "Mie01",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1A",
         "subj": "Ciencias",
-        "start": "Mar17",
-        "room": "Laboratorio 1",
+        "start": "Mie01",
+        "room": "Lab Ciencias",
+        "prof": "Ana Lopez"
+    },
+    {
+        "group": "1C",
+        "subj": "Computacion",
+        "start": "Mie01",
+        "room": "Aula B2",
+        "prof": "Brenda Nunez"
+    },
+    {
+        "group": "1A",
+        "subj": "Artes",
+        "start": "Mie02",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1B",
+        "subj": "Ciencias",
+        "start": "Mie02",
+        "room": "Lab Ciencias",
         "prof": "Mario Garcia"
     },
     {
-        "group": "1C",
-        "subj": "Matematicas",
-        "start": "Mar17",
+        "group": "1A",
+        "subj": "Computacion",
+        "start": "Mie03",
+        "room": "Aula B2",
+        "prof": "Jorge Ramos"
+    },
+    {
+        "group": "1B",
+        "subj": "Espanol",
+        "start": "Mie03",
         "room": "Aula 1",
-        "prof": "Ana Lopez"
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1C",
+        "subj": "Artes",
+        "start": "Mie03",
+        "room": "Aula 10",
+        "prof": "Lucia Pineda"
+    },
+    {
+        "group": "1C",
+        "subj": "Ciencias",
+        "start": "Mie04",
+        "room": "Lab Ciencias",
+        "prof": "Teresa Luna"
+    },
+    {
+        "group": "1A",
+        "subj": "Espanol",
+        "start": "Mie04",
+        "room": "Aula 1",
+        "prof": "Laura Medina"
+    },
+    {
+        "group": "1B",
+        "subj": "Formacion Civica y Etica",
+        "start": "Mie05",
+        "room": "Aula 8",
+        "prof": "Ruben Morales"
+    },
+    {
+        "group": "1C",
+        "subj": "Espanol",
+        "start": "Mie05",
+        "room": "Aula 1",
+        "prof": "Laura Medina"
+    },
+    {
+        "group": "1C",
+        "subj": "Formacion Civica y Etica",
+        "start": "Mie06",
+        "room": "Aula 8",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1A",
+        "subj": "Geografia",
+        "start": "Mie06",
+        "room": "Aula 7",
+        "prof": "Teresa Luna"
     },
     {
         "group": "1B",
         "subj": "Historia",
-        "start": "Mar17",
+        "start": "Mie06",
         "room": "Aula 3",
         "prof": "Carlos Perez"
     },
     {
-        "group": "1D",
-        "subj": "Matematicas",
-        "start": "Mar18",
-        "room": "Aula 1",
+        "group": "1A",
+        "subj": "Ciencias",
+        "start": "Jue01",
+        "room": "Lab Ciencias",
         "prof": "Ana Lopez"
     },
     {
         "group": "1C",
-        "subj": "Historia",
-        "start": "Mar18",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
+        "subj": "Computacion",
+        "start": "Jue01",
+        "room": "Aula B2",
+        "prof": "Brenda Nunez"
+    },
+    {
+        "group": "1B",
+        "subj": "Espanol",
+        "start": "Jue01",
+        "room": "Aula 1",
+        "prof": "Patricia Soto"
     },
     {
         "group": "1B",
         "subj": "Ciencias",
-        "start": "Mar18",
-        "room": "Laboratorio 1",
+        "start": "Jue02",
+        "room": "Lab Ciencias",
         "prof": "Mario Garcia"
     },
     {
         "group": "1A",
-        "subj": "Ciencias",
-        "start": "Mar19",
-        "room": "Laboratorio 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1D",
-        "subj": "Historia",
-        "start": "Mar19",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
+        "subj": "Computacion",
+        "start": "Jue02",
+        "room": "Aula B2",
+        "prof": "Jorge Ramos"
     },
     {
         "group": "1A",
-        "subj": "Historia",
-        "start": "Mar20",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1B",
-        "subj": "Matematicas",
-        "start": "Mar20",
+        "subj": "Espanol",
+        "start": "Jue03",
         "room": "Aula 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1A",
-        "subj": "Ciencias",
-        "start": "Mie17",
-        "room": "Laboratorio 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1B",
-        "subj": "Historia",
-        "start": "Mie17",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1A",
-        "subj": "Historia",
-        "start": "Mie18",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
+        "prof": "Laura Medina"
     },
     {
         "group": "1C",
         "subj": "Ciencias",
-        "start": "Mie18",
-        "room": "Laboratorio 1",
+        "start": "Jue03",
+        "room": "Lab Ciencias",
+        "prof": "Teresa Luna"
+    },
+    {
+        "group": "1B",
+        "subj": "Formacion Civica y Etica",
+        "start": "Jue03",
+        "room": "Aula 8",
+        "prof": "Ruben Morales"
+    },
+    {
+        "group": "1A",
+        "subj": "Formacion Civica y Etica",
+        "start": "Jue04",
+        "room": "Aula 8",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1C",
+        "subj": "Espanol",
+        "start": "Jue04",
+        "room": "Aula 1",
+        "prof": "Laura Medina"
+    },
+    {
+        "group": "1B",
+        "subj": "Geografia",
+        "start": "Jue05",
+        "room": "Aula 7",
+        "prof": "Carlos Perez"
+    },
+    {
+        "group": "1C",
+        "subj": "Formacion Civica y Etica",
+        "start": "Jue05",
+        "room": "Aula 8",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1A",
+        "subj": "Geografia",
+        "start": "Jue06",
+        "room": "Aula 7",
+        "prof": "Teresa Luna"
+    },
+    {
+        "group": "1B",
+        "subj": "Matematicas",
+        "start": "Jue06",
+        "room": "Aula 1",
         "prof": "Ana Lopez"
+    },
+    {
+        "group": "1C",
+        "subj": "Historia",
+        "start": "Jue06",
+        "room": "Aula 3",
+        "prof": "Irene Vega"
     },
     {
         "group": "1B",
         "subj": "Ciencias",
-        "start": "Mie19",
-        "room": "Laboratorio 1",
+        "start": "Vie01",
+        "room": "Lab Ciencias",
         "prof": "Mario Garcia"
     },
     {
-        "group": "1C",
-        "subj": "Historia",
-        "start": "Mie19",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1D",
-        "subj": "Matematicas",
-        "start": "Mie19",
+        "group": "1A",
+        "subj": "Espanol",
+        "start": "Vie01",
         "room": "Aula 1",
-        "prof": "Ana Lopez"
+        "prof": "Laura Medina"
     },
     {
-        "group": "1D",
-        "subj": "Ciencias",
-        "start": "Mie20",
-        "room": "Laboratorio 1",
-        "prof": "Mario Garcia"
+        "group": "1C",
+        "subj": "Geografia",
+        "start": "Vie01",
+        "room": "Aula 7",
+        "prof": "Irene Vega"
     },
     {
         "group": "1B",
-        "subj": "Matematicas",
-        "start": "Mie20",
+        "subj": "Espanol",
+        "start": "Vie02",
         "room": "Aula 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1D",
-        "subj": "Historia",
-        "start": "Mie21",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
+        "prof": "Patricia Soto"
     },
     {
         "group": "1A",
         "subj": "Ciencias",
-        "start": "Jue17",
-        "room": "Laboratorio 1",
+        "start": "Vie02",
+        "room": "Lab Ciencias",
         "prof": "Ana Lopez"
     },
     {
+        "group": "1C",
+        "subj": "Ciencias",
+        "start": "Vie03",
+        "room": "Lab Ciencias",
+        "prof": "Teresa Luna"
+    },
+    {
         "group": "1B",
-        "subj": "Historia",
-        "start": "Jue17",
-        "room": "Aula 3",
+        "subj": "Formacion Civica y Etica",
+        "start": "Vie03",
+        "room": "Aula 8",
+        "prof": "Ruben Morales"
+    },
+    {
+        "group": "1A",
+        "subj": "Matematicas",
+        "start": "Vie03",
+        "room": "Aula 1",
+        "prof": "Jorge Ramos"
+    },
+    {
+        "group": "1A",
+        "subj": "Formacion Civica y Etica",
+        "start": "Vie04",
+        "room": "Aula 8",
+        "prof": "Patricia Soto"
+    },
+    {
+        "group": "1C",
+        "subj": "Espanol",
+        "start": "Vie04",
+        "room": "Aula 1",
+        "prof": "Laura Medina"
+    },
+    {
+        "group": "1C",
+        "subj": "Matematicas",
+        "start": "Vie05",
+        "room": "Aula 1",
+        "prof": "Jorge Ramos"
+    },
+    {
+        "group": "1B",
+        "subj": "Geografia",
+        "start": "Vie05",
+        "room": "Aula 7",
         "prof": "Carlos Perez"
     },
     {
         "group": "1B",
-        "subj": "Ciencias",
-        "start": "Jue18",
-        "room": "Laboratorio 1",
-        "prof": "Mario Garcia"
-    },
-    {
-        "group": "1D",
         "subj": "Matematicas",
-        "start": "Jue18",
+        "start": "Vie06",
         "room": "Aula 1",
         "prof": "Ana Lopez"
     },
     {
-        "group": "1C",
-        "subj": "Historia",
-        "start": "Jue18",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
         "group": "1A",
-        "subj": "Historia",
-        "start": "Jue19",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1B",
-        "subj": "Matematicas",
-        "start": "Jue19",
-        "room": "Aula 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1D",
-        "subj": "Ciencias",
-        "start": "Jue19",
-        "room": "Laboratorio 1",
-        "prof": "Mario Garcia"
-    },
-    {
-        "group": "1D",
-        "subj": "Historia",
-        "start": "Jue20",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1C",
-        "subj": "Ciencias",
-        "start": "Jue20",
-        "room": "Laboratorio 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1A",
-        "subj": "Ciencias",
-        "start": "Vie17",
-        "room": "Laboratorio 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1D",
-        "subj": "Historia",
-        "start": "Vie17",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1A",
-        "subj": "Historia",
-        "start": "Vie18",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1C",
-        "subj": "Ciencias",
-        "start": "Vie18",
-        "room": "Laboratorio 1",
-        "prof": "Ana Lopez"
-    },
-    {
-        "group": "1C",
-        "subj": "Historia",
-        "start": "Vie19",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
-    },
-    {
-        "group": "1B",
-        "subj": "Historia",
-        "start": "Vie20",
-        "room": "Aula 3",
-        "prof": "Carlos Perez"
+        "subj": "Geografia",
+        "start": "Vie06",
+        "room": "Aula 7",
+        "prof": "Teresa Luna"
     }
 ]

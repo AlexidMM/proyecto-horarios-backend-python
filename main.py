@@ -34,6 +34,57 @@ def norm(x):
     return x.strip().lower()
 
 
+def apply_filters(subjects, filters):
+    if not isinstance(subjects, dict):
+        return subjects
+
+    if not isinstance(filters, dict):
+        return subjects
+
+    grado = filters.get("grado")
+    grupos = filters.get("grupos")
+    materias = filters.get("materias")
+
+    if not isinstance(grupos, list):
+        grupo_legacy = filters.get("grupo")
+        grupos = [grupo_legacy] if grupo_legacy not in (None, "", "all") else []
+
+    if not isinstance(materias, list):
+        materia_legacy = filters.get("materia")
+        materias = [materia_legacy] if materia_legacy not in (None, "", "all") else []
+
+    grupos_norm = {norm(g) for g in grupos if isinstance(g, str) and g.strip()}
+    materias_norm = {norm(m) for m in materias if isinstance(m, str) and m.strip()}
+
+    if isinstance(grado, str) and grado.isdigit():
+        grado = int(grado)
+
+    result = {}
+    for group_name, items in subjects.items():
+        if grupos_norm and norm(group_name) not in grupos_norm:
+            continue
+
+        filtered_items = []
+        for item in items:
+            item_grado = item.get("grado")
+            if isinstance(item_grado, str) and item_grado.isdigit():
+                item_grado = int(item_grado)
+
+            # If item-level grade is not present, keep the subject and trust backend scoping.
+            if grado not in (None, "", "all") and item_grado is not None and item_grado != grado:
+                continue
+
+            if materias_norm and norm(item.get("id", "")) not in materias_norm:
+                continue
+
+            filtered_items.append(item)
+
+        if filtered_items:
+            result[group_name] = filtered_items
+
+    return result
+
+
 # Datos de prueba
 TEST_SUBJECTS = {
     "1A": [
@@ -102,6 +153,13 @@ async def generar_horario(request: Request):
 
     if not data:
         data = TEST_SUBJECTS
+
+    filters = {}
+    if isinstance(data, dict) and "subjects" in data:
+        filters = data.get("filters") or {}
+        data = data.get("subjects") or TEST_SUBJECTS
+
+    data = apply_filters(data, filters)
 
     # Guardar subjects en /tmp
     subjects_path = TMP_DIR / "subjects.json"

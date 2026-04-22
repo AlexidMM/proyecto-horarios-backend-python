@@ -27,9 +27,9 @@ with open(materias_fuera_path, encoding='utf-8') as f:
 
     
 # --- Slots ---
-SLOTS_PER_DAY = 5
+SLOTS_PER_DAY = 6
 DAYS = ["Lun", "Mar", "Mie", "Jue", "Vie"]
-SLOTS = [f"{d}{17+i}" for d in DAYS for i in range(SLOTS_PER_DAY)]
+SLOTS = [f"{d}{(i + 1):02d}" for d in DAYS for i in range(SLOTS_PER_DAY)]
 # --- Cargar SUBJECTS pasado desde main.py ---
 if len(sys.argv) > 4:
     subjects_path = Path(sys.argv[4])
@@ -98,13 +98,14 @@ def prof_room_libres(asignaciones, prof, room, slot):
     return not any((a["prof"] == prof or a["room"] == room) and a["start"] == slot for a in asignaciones)
 
 def get_constraints(materia, grupo):
-    for subj in SUBJECTS[grupo]:
+    for subj in SUBJECTS.get(grupo, []):
         if subj["id"] == materia:
             return {
                 "prof": subj["profs"][0],
                 "room": subj["rooms"][0],
-                "min_hora": subj.get("min_hora", 17),     # defecto 17
-                "max_hora": subj.get("max_hora", 21)      # defecto 21
+                "allow_double_block": subj.get("allow_double_block", False),
+                "min_hora": subj.get("min_hora", 1),
+                "max_hora": subj.get("max_hora", 6)
             }
     return None
 
@@ -116,8 +117,31 @@ def materia_repetida_en_dia(asignaciones, grupo, materia, slot):
     dia = slot[:3]
     return any(a["group"] == grupo and a["subj"] == materia and a["start"].startswith(dia) for a in asignaciones)
 
+
+def puede_repetir_materia_en_dia(asignaciones, grupo, materia, slot):
+    cons = get_constraints(materia, grupo)
+    if not cons:
+        return False
+
+    allow_double = bool(cons.get("allow_double_block", False))
+    dia = slot[:3]
+    hora = int(slot[3:])
+    existentes = [a for a in asignaciones if a["group"] == grupo and a["subj"] == materia and a["start"].startswith(dia)]
+
+    if len(existentes) == 0:
+        return True
+    if not allow_double:
+        return False
+    if len(existentes) >= 2:
+        return False
+
+    hora_existente = int(existentes[0]["start"][3:])
+    return abs(hora - hora_existente) == 1
+
 def puede_asignar(asignaciones, grupo, materia, prof, room, slot):
     cons = get_constraints(materia, grupo)
+    if not cons or not prof or not room:
+        return False
 
     # 1) hora válida
     if not hora_valida(slot, cons["min_hora"], cons["max_hora"]):
@@ -127,8 +151,8 @@ def puede_asignar(asignaciones, grupo, materia, prof, room, slot):
     if not slot_libre(asignaciones, grupo, slot):
         return False
 
-    # 3) no repetir materia en el mismo día
-    if materia_repetida_en_dia(asignaciones, grupo, materia, slot):
+    # 3) no repetir materia en el mismo dia (excepto cuando se permita doble bloque consecutivo)
+    if not puede_repetir_materia_en_dia(asignaciones, grupo, materia, slot):
         return False
 
     # 4) prof + room disponibles
@@ -148,20 +172,24 @@ def puede_asignar(asignaciones, grupo, materia, prof, room, slot):
 
 def buscar_swap(asignaciones, grupo, materia, prof, room, slot):
     cons = get_constraints(materia, grupo)
+    if not cons:
+        return None
 
     # No swap si este slot no cumple la hora
     if not hora_valida(slot, cons["min_hora"], cons["max_hora"]):
         return None
 
-    # Slot ocupado → intentar mover la materia que está ahí
-    for a in asignaciones:
+    # Slot ocupado -> intentar mover la materia que esta ahi
+    for idx, a in enumerate(asignaciones):
         if a["group"] == grupo and a["start"] == slot:
 
             materia_actual = a["subj"]
             if materia_actual.lower().startswith("ingles"):
-                return None  # inglés no se mueve
+                return None  # ingles no se mueve
 
             cons2 = get_constraints(materia_actual, grupo)
+            if not cons2:
+                return None
             prof_actual = cons2["prof"]
             room_actual = cons2["room"]
 
@@ -170,16 +198,33 @@ def buscar_swap(asignaciones, grupo, materia, prof, room, slot):
                 if slot2 == slot:
                     continue
 
-                if puede_asignar(asignaciones, grupo, materia_actual, prof_actual, room_actual, slot2):
-                    return {
-                        "swap": True,
-                        "mover": {
-                            "group": grupo,
-                            "materia": materia_actual,
-                            "from": slot,
-                            "to": slot2
-                        }
+                # Simular el swap en un estado temporal para validar colisiones reales
+                temp = copy.deepcopy(asignaciones)
+                temp.pop(idx)
+
+                if not puede_asignar(temp, grupo, materia_actual, prof_actual, room_actual, slot2):
+                    continue
+
+                temp.append({
+                    "group": grupo,
+                    "subj": materia_actual,
+                    "start": slot2,
+                    "room": room_actual,
+                    "prof": prof_actual,
+                })
+
+                if not puede_asignar(temp, grupo, materia, prof, room, slot):
+                    continue
+
+                return {
+                    "swap": True,
+                    "mover": {
+                        "group": grupo,
+                        "materia": materia_actual,
+                        "from": slot,
+                        "to": slot2
                     }
+                }
 
     return None
 
@@ -188,16 +233,57 @@ def sugerir_movimientos(asignaciones, materias_fuera):
     sugerencias = []
     sugeridas = set()
     swaps_usados = set()
+    estado_actual = copy.deepcopy(asignaciones)
+
+    def aplicar_directo_local(grupo, materia, prof, room, slot):
+        estado_actual.append({
+            "group": grupo,
+            "subj": materia,
+            "start": slot,
+            "room": room,
+            "prof": prof,
+        })
+
+    def aplicar_swap_local(grupo, materia, prof, room, slot, swap):
+        mover = swap["mover"]
+        for item in estado_actual:
+            if (
+                item.get("group") == mover["group"]
+                and item.get("subj") == mover["materia"]
+                and item.get("start") == mover["from"]
+            ):
+                item["start"] = mover["to"]
+                break
+        estado_actual.append({
+            "group": grupo,
+            "subj": materia,
+            "start": slot,
+            "room": room,
+            "prof": prof,
+        })
+
     for falta in materias_fuera:
         grupo = falta["group"]
         materia = falta["materia"]
         prof, room = get_prof_room(materia, grupo)
+        if not prof or not room:
+            clave = ("sin_solucion", grupo, materia, "sin_prof_room")
+            if clave not in sugeridas:
+                sugerencias.append({
+                    "accion": "sin_solucion",
+                    "group": grupo,
+                    "materia": materia,
+                    "detalle": f"No se encontro profesor/salon configurado para '{materia}' del grupo {grupo}"
+                })
+                sugeridas.add(clave)
+            continue
+
         # Intentar asignar directo
         for slot in SLOTS:
             clave = ("asignar_directo", grupo, materia, slot)
             if clave in sugeridas:
                 continue
-            if puede_asignar(asignaciones, grupo, materia, prof, room, slot):
+            if puede_asignar(estado_actual, grupo, materia, prof, room, slot):
                 sugerencias.append({
                     "accion": "asignar_directo",
                     "group": grupo,
@@ -206,14 +292,15 @@ def sugerir_movimientos(asignaciones, materias_fuera):
                     "detalle": f"Asignar '{materia}' al grupo {grupo} en {slot} (directo)"
                 })
                 sugeridas.add(clave)
+                aplicar_directo_local(grupo, materia, prof, room, slot)
                 break
         else:
             # Intentar swap
             for slot in SLOTS:
                 clave = ("swap", grupo, materia, slot)
-                if clave in sugeridas or slot_libre(asignaciones, grupo, slot):
+                if clave in sugeridas or slot_libre(estado_actual, grupo, slot):
                     continue
-                swap = buscar_swap(asignaciones, grupo, materia, prof, room, slot)
+                swap = buscar_swap(estado_actual, grupo, materia, prof, room, slot)
                 if swap:
                     mover_materia = swap["mover"]["materia"]
                     if (grupo, slot, mover_materia) in swaps_usados:
@@ -228,6 +315,7 @@ def sugerir_movimientos(asignaciones, materias_fuera):
                     })
                     sugeridas.add(clave)
                     swaps_usados.add((grupo, slot, mover_materia))
+                    aplicar_swap_local(grupo, materia, prof, room, slot, swap)
                     break
             else:
                 clave = ("sin_solucion", grupo, materia, None)

@@ -9,9 +9,9 @@ import unicodedata
 # CONFIGURACIÓN BASE
 # ============================================================
 
-SLOTS_PER_DAY = 5
+SLOTS_PER_DAY = 6
 DAYS = ["Lun", "Mar", "Mie", "Jue", "Vie"]
-SLOTS = [f"{d}{17+i}" for d in DAYS for i in range(SLOTS_PER_DAY)]
+SLOTS = [f"{d}{(i + 1):02d}" for d in DAYS for i in range(SLOTS_PER_DAY)]
 
 # Cargar SUBJECTS desde main.py
 if len(sys.argv) > 1:
@@ -54,6 +54,32 @@ def get_prof_room(materia_id, grupo):
     return None, None
 
 
+def materia_en_dia(asignaciones, grupo, materia_id, dia):
+    return [
+        a for a in asignaciones
+        if a["group"] == grupo
+        and norm(a["subj"]) == norm(materia_id)
+        and a["start"].startswith(dia)
+    ]
+
+
+def es_doble_consecutivo_valido(asignaciones, grupo, materia_id, slot, allow_double_block):
+    existentes = materia_en_dia(asignaciones, grupo, materia_id, slot[:3])
+    if len(existentes) == 0:
+        return True
+
+    # Si ya hay una de la misma materia en ese dia: solo permitir una segunda y consecutiva
+    if not allow_double_block:
+        return False
+
+    if len(existentes) >= 2:
+        return False
+
+    hora_actual = int(slot[-2:])
+    hora_existente = int(existentes[0]["start"][-2:])
+    return abs(hora_actual - hora_existente) == 1
+
+
 # ============================================================
 # GREEDY PRINCIPAL
 # ============================================================
@@ -70,7 +96,7 @@ def run_greedy():
     # --------------------------------------------------------
     # 1. Asignar inglés primero
     # --------------------------------------------------------
-    horas_ingles = [17, 18, 19, 20, 21]
+    horas_ingles = [1, 2, 3, 4, 5, 6]
     grupos = list(SUBJECTS.keys())
     random.shuffle(horas_ingles)
 
@@ -89,7 +115,7 @@ def run_greedy():
         hora = horas_por_grupo[g]
 
         for dia in DAYS:
-            slot = f"{dia}{hora}"
+            slot = f"{dia}{hora:02d}"
             if grupo_materia_horas[(g, materia_ingles["id"])] > 0:
                 asignaciones.append({
                     "group": g,
@@ -130,18 +156,16 @@ def run_greedy():
             for m in materias_disponibles:
                 materia_id = m["id"]
                 prof, room = get_prof_room(materia_id, g)
+                allow_double_block = bool(m.get("allow_double_block", False))
 
-                # min_hora si la materia lo define
+                # min_hora se interpreta como bloque de 1 a 6
                 min_hora = m.get("min_hora")
                 if min_hora is not None and hora_slot < min_hora:
                     continue
 
-                # no dar 2 veces en el mismo día
-                profe_ya_dio = any(
-                    a["prof"] == prof and a["group"] == g and a["start"].startswith(dia)
-                    for a in asignaciones
-                )
-                if profe_ya_dio:
+                # Regla por materia en el dia:
+                # por defecto una sola vez; si allow_double_block=true, maximo 2 y consecutivas
+                if not es_doble_consecutivo_valido(asignaciones, g, materia_id, slot, allow_double_block):
                     continue
 
                 if prof in profes_slot:
